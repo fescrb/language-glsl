@@ -37,7 +37,7 @@
     'name': 'storage.type.glsl'
   }
   {
-    'match': '\\b(attribute|centroid|sample|patch|const|flat|in|inout|invariant|noperspective|out|smooth|uniform|varying|buffer|shared|lowp|mediump|highp)\\b'
+    'match': '\\b(attribute|centroid|sample|patch|const|flat|in|inout|invariant|noperspective|out|smooth|uniform|varying|buffer|shared|lowp|mediump|highp|volatile|coherent|restrict|readonly|writeonly)\\b'
     'name': 'storage.modifier.glsl'
   }
   {
@@ -53,7 +53,7 @@
     'name': 'support.function.glsl'
   }
   {
-    'match': '\\b(asm|double|enum|extern|goto|inline|long|short|sizeof|static|typedef|union|unsigned|volatile)\\b'
+    'match': '\\b(asm|double|enum|extern|goto|inline|long|short|sizeof|static|typedef|union|unsigned)\\b'
     'name': 'invalid.illegal.glsl'
   }
   {
